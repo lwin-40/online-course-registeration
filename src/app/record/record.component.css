@@ -1,0 +1,66 @@
+body {
+  margin:0;
+  padding :0;
+}
+#header {
+  background-color: mediumseagreen ;
+  color:white;
+  height:50px;
+  padding:20px;
+}
+#header sub{
+  background-color:gold;
+  color:black;
+}
+#content{
+  height: 200px;
+  clear: both;
+}
+#left_content{
+  float: left;
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 25px;
+
+}
+#right_content{
+  float: left;
+  padding-left: 500px;
+  padding-top: 20px;
+
+}
+#innercontent{
+  height: 280px;
+  clear: both;
+}
+#left_innercontent{
+  float: left;
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 25px;
+
+}
+#right_innercontent{
+  float: left;
+  padding-left:300px;
+}
+.button{
+  background-color: mediumseagreen;
+  color: black;
+  padding: 5px;
+}
+.button:hover{
+  background-color: white;
+}
+
+#right_content a:visited {
+  text-decoration: none;
+  color:red;
+}
+
+#footer{
+  background-color: mediumseagreen ;
+  color:white;
+  height:50px;
+  padding:15px;
+}

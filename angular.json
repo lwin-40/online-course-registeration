@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "online-course-registeration"
+    }
+  },
+  "defaultProject": "online-course-registeration",
+  "cli": {
+    "analytics": "ef244b94-1ddf-4871-8bd7-11b65533d833"
+  }
 }

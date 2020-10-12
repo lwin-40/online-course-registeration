@@ -1,0 +1,54 @@
+<div id="header">
+  <h1 >
+    Course Registration Online System <sub> (CRO )</sub>
+  </h1>
+</div>
+<div id="left_form">
+  <div style="height: 30px;padding: 10px;background-color: mediumseagreen;text-align: center;">Login</div>
+  <br>
+
+  <form id="content" method="post" action="login.component.html">
+
+    <label>Email</label><br> <input type="text" id=" email "
+                                    placeholder="email" class="login_inputfield " required><br>
+    <br> <label>Password</label><br> <input type="password"
+                                            id=" password" placeholder="password" class="login_inputfield " required><br>
+    <br>
+
+      <input type="submit" value="Login" class="button" routerLink="/register" routerLinkActive="active">
+
+  </form>
+</div>
+<div id="right_form">
+  <h2 style="text-align: center;">Student Account Register</h2>
+  <form method="post" action="login.component.html">
+    <div id="left_content">
+      <label>Name</label><br> <input type="text" id="name"
+                                     placeholder="name" class="inputfield"><br>
+      <br> <label>Email</label><br> <input type="text"
+                                           id="email" placeholder="email" class="inputfield" required><br>
+      <br> <label>Mobile</label><br> <input type="tel"
+                                            id="phone" name="phone" class="inputfield" required><br>
+      <br>
+    </div>
+    <div id="right_content">
+      <label>Email</label><br> <input type="text" id="studentId"
+                                      placeholder="student id" class="inputfield"><br>
+      <br> <label>Password</label><br> <input type="password"
+                                              id="password" placeholder="password" class="inputfield" required><br>
+      <br> <label>Password</label><br> <input type="password"
+                                              id="confirmpassword " placeholder="confirm password"
+                                              class=" inputfield" required><br>
+      <br>
+    </div>
+<div>
+  <input type="submit" value="Register" class="button" routerLink="/register" routerLinkActive="active">
+</div>
+
+
+  </form>
+
+</div>
+<div id="footer">
+  <h3>&copy;&nbsp;Dekastan State University (Civities Universities Dekastan )</h3>
+</div>

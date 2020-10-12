@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  background-color: mediumseagreen;
+  color: white;
+  height: 50px;
+  padding: 20px;
+}
+
+#header sub {
+  background-color: gold;
+  color: black;
+}
+
+#content {
+
+  clear: both;
+}
+
+#left_content {
+  float: left;
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+
+#right_content {
+  float: left;
+  padding-left: 500px;
+  padding-top: 20px;
+}
+
+#main_content {
+  clear: both;
+  border: 1px solid gainsboro;
+  margin: 30px;
+  height: 280px;
+}
+
+#left_innerContent {
+  float: left;
+  padding-left: 20px;
+}
+
+#right_innerContent {
+  float: left;
+  padding-left: 400px;
+}
+
+#submitButton {
+  float: right;
+  padding-top: 10px;
+  color: black;
+  clear: both;
+}
+
+.inputfield {
+  width: 1200px;
+  height: 25px;
+}
+
+.inputfield1 {
+  width: 650px;
+  height: 25px;
+}
+.button{
+  background-color: mediumseagreen;
+  padding: 5px;
+}
+.button:hover{
+  background-color: white;
+}
+#footer {
+  background-color: mediumseagreen;
+  color: white;
+  height: 50px;
+  padding: 15px;
+}
